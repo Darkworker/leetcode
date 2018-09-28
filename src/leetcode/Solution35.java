@@ -5,7 +5,7 @@ import java.util.List;
 
 /**
  * @author : symfony
- * @fileName : leetcode.Solution35.java create time:2018年9月15日
+ * @fileName : leetcode.Solution35.java create time:2018骞�9鏈�15鏃�
  *
  * @describe :
  *
@@ -13,9 +13,6 @@ import java.util.List;
  */
 public class Solution35 {
 	List<String> list=new ArrayList<String>();
-	public Iterator<String> get(){
-		
-	}
 	public static void main(String[] args) {
 		int[] nums=new int[] {1,3,5,6};
 		
