@@ -1,7 +1,7 @@
-## **三、所有题目列表**
+## **所有题目列表**
 |#|    Title   |Solution|Score|Backup|
 |---|-------------| ----- |----|---------|
-|1|[Two Sum](https://leetcode.com/problems/two-sum/)|[Java](leetcode/solution/src/TwoSum.java)|100|
+|1|[Two Sum](https://leetcode.com/problems/two-sum/)|[Java](leetcode/solution/src/Solution1.java)|100|
 |2|[Add Two Numbers](https://leetcode.com/problems/add-two-numbers/)| [Java](leetcode/solution/src/AddTwoNumber.java)|80|
 |3|[Longest Substring Without Repeating Characters](https://leetcode.com/problems/longest-substring-without-repeating-characters/)| [Java](leetcode/solution/src/LongestSubstringWithoutRepeatingCharacters.java)||这个系列的所有题都要多做几遍|
 |4|[Median of Two Sorted Arrays](https://leetcode.com/problems/median-of-two-sorted-arrays/)| [Java](leetcode/solution/src/MedianOfTwoSortedArrays.java)|70|这题很经典，多做几遍|
@@ -38,9 +38,9 @@
 |35|[Search Insert Position](https://leetcode.com/problems/search-insert-position/)| [Java](leetcode/solution/src/SearchInsertPosition.java)||
 |36|[Valid Sudoku](https://leetcode.com/problems/valid-sudoku/#/description)| [Java](leetcode/solution/src/ValidSudoku.java)|80|
 |37|[Sudoku Solver](https://leetcode.com/problems/sudoku-solver/#/description)| [Java](leetcode/solution/src/SudokuSolver.java)|70|这道题是典型的back tracking，多做几遍|
-|38|[Count and Say](https://leetcode.com/problems/count-and-say/)| [Java](leetcode/solution/src/CountAndSay.java)|80|
-|39|[Combination Sum](https://leetcode.com/problems/combination-sum/)| [Java](leetcode/solution/src/CombinationSum.java)|70|排列组合系列的题要多做几遍|
-|40|[Combination Sum II](https://leetcode.com/problems/combination-sum-ii/)| [Java](leetcode/solution/src/CombinationSumII.java)|70|
+|38|[Count and Say](https://leetcode.com/problems/count-and-say/)| [Easy](leetcode/solution/src/LC38_CountAndSay.java)|80|
+|39|[Combination Sum](https://leetcode.com/problems/combination-sum/)| [Medium](leetcode/blob/master/src/leetcode/LC39_CombinationSum.java)|100|组合的问题，利用递归求解|
+|40|[Combination Sum II](https://leetcode.com/problems/combination-sum-ii/)| [Medium](leetcode/blob/master/src/leetcode/LC40_CombinationSumII.java)|10| **存在问题
 |41|[First Missing Positive](https://leetcode.com/problems/first-missing-positive/#/description)| [Java](leetcode/solution/src/FirstMissingPositive.java)||
 |42|[Trapping Rain Water](https://leetcode.com/problems/trapping-rain-water/)| [Java](leetcode/solution/src/TrappingRainWater.java)|95|
 |43|[Multiply Strings](https://leetcode.com/problems/multiply-strings/)| [Java](leetcode/solution/src/MultiplyStrings.java)|80|
