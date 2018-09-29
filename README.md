@@ -38,7 +38,7 @@
 |35|[Search Insert Position](https://leetcode.com/problems/search-insert-position/)| [Java](leetcode/solution/src/SearchInsertPosition.java)||
 |36|[Valid Sudoku](https://leetcode.com/problems/valid-sudoku/#/description)| [Java](leetcode/solution/src/ValidSudoku.java)|80|
 |37|[Sudoku Solver](https://leetcode.com/problems/sudoku-solver/#/description)| [Java](leetcode/solution/src/SudokuSolver.java)|70|这道题是典型的back tracking，多做几遍|
-|38|[Count and Say](https://leetcode.com/problems/count-and-say/)| [Easy](leetcode/solution/src/LC38_CountAndSay.java)|80|
+|38|[Count and Say](https://leetcode.com/problems/count-and-say/)| [Easy](src/leetcode/LC38_CountAndSay.java)|80|
 |39|[Combination Sum](https://leetcode.com/problems/combination-sum/)| [Medium](src/leetcode/LC39_CombinationSum.java)|100|组合的问题，利用递归求解|
 |40|[Combination Sum II](https://leetcode.com/problems/combination-sum-ii/)| [Medium](src/leetcode/LC40_CombinationSumII.java)|10| **存在问题
 |41|[First Missing Positive](https://leetcode.com/problems/first-missing-positive/#/description)| [Java](leetcode/solution/src/FirstMissingPositive.java)||
