@@ -20,11 +20,11 @@
 |14|[Longest Common Prefix](https://leetcode.com/problems/longest-common-prefix/)| [Java](leetcode/solution/src/LongestCommonPrefix.java)||
 |15|[3Sum](https://leetcode.com/problems/3sum/)| [Java](leetcode/solution/src/ThreeSum.java)|70|
 |16|[3Sum Closest](https://leetcode.com/problems/3sum-closest/)| [Java](leetcode/solution/src/ThreeSumClosest.java)||
-|17|[Letter Combinations of a Phone Number](https://leetcode.com/problems/letter-combinations-of-a-phone-number/)| [Java](leetcode/solution/src/LetterCombinationOfPhoneNumber.java)|85||
-|18|[4Sum](https://leetcode.com/problems/4sum/)| [Java](leetcode/solution/src/FourSum.java)||
-|19|[Remove Nth Node From End of List](https://leetcode.com/problems/remove-nth-node-from-end-of-list/)| [Java](leetcode/solution/src/RemoveNthNodeFromEndOfList.java)||
-|20|[Valid Parentheses](https://leetcode.com/problems/valid-parentheses/)| [Java](leetcode/solution/src/ValidParentheses.java)|100|
-|21|[Merge Two Sorted Lists](https://leetcode.com/problems/merge-two-sorted-lists/)| [Java](leetcode/solution/src/MergeTwoSortedList.java)|90|
+|17|[Letter Combinations of a Phone Number](https://leetcode.com/problems/letter-combinations-of-a-phone-number/)| [Medium](src/leetcode/LC17_LetterCombinationsofaPhoneNumber.java)|40||
+|18|[4Sum](https://leetcode.com/problems/4sum/)| [Medium](src/leetcode/LC18_4Sum.java)||
+|19|[Remove Nth Node From End of List](https://leetcode.com/problems/remove-nth-node-from-end-of-list/)| [Medium](src/leetcode/LC19_RemoveNthNodeFromEndofList.java)|35|
+|20|[Valid Parentheses](https://leetcode.com/problems/valid-parentheses/)| [Easy](src/leetcode/LC20_ValidParentheses.java)|10|
+|21|[Merge Two Sorted Lists](https://leetcode.com/problems/merge-two-sorted-lists/)| [Easy](src/leetcode/LC21_MergeTwoSortedLists.java)|90|
 |22|[Generate Parentheses](https://leetcode.com/problems/generate-parentheses/)| [Java](leetcode/solution/src/GenerateParentheses.java)|80|这题看两遍|
 |23|[Merge k Sorted Lists](https://leetcode.com/problems/merge-k-sorted-lists/)| [Java](leetcode/solution/src/MergeKSortedList.java)|70|
 |24|[Swap Nodes in Pairs](https://leetcode.com/problems/swap-nodes-in-pairs/)| [Java](leetcode/solution/src/SwapNodesInPairs.java)||
