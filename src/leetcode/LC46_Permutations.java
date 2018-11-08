@@ -16,21 +16,27 @@ import com.sun.xml.internal.ws.policy.privateutil.PolicyUtils.Collections;
  *           ALL RIGHTS RESERVED,COPYRIGHT(C) FCH LIMITED 2018
  */
 public class LC46_Permutations {
+	public static void main(String[] args) {
+		LC46_Permutations obj=new LC46_Permutations();
+		obj.permute(new int[] {1,2,3});
+	}
 	List<List<Integer>> result=new LinkedList<>();
-	List<Integer> datas=new LinkedList<>();
 	public List<List<Integer>> permute(int[] nums) {
-		for(int n:nums) {
-			datas.add(n);
-		}
+		permute(nums,new LinkedList<Integer>());
 		return result;
 	}
-	public List<List<Integer>> permute(int[] nums,int begin,List<Integer> data) {
+	public void permute(int[] nums,List<Integer> data) {
 		if(data.size()==nums.length) {
-			List<Integer> line=new LinkedList<>();
-			for(int d:data) line.add(d);
-			result.add(line);
+			result.add(new LinkedList<>(data));
+            return ;
 		}
-		
+		for(int i=0;i<nums.length;i++) {
+			if(data.contains(nums[i])) continue;
+			data.add(nums[i]);
+			permute(nums,data);
+			data.remove(data.size()-1);
+		}
+		return;
 	}
 	
 }
