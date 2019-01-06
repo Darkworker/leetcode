@@ -6,7 +6,7 @@
 |1|[Two Sum](https://leetcode.com/problems/two-sum/)|[Java](leetcode/solution/src/Solution1.java)|100|
 |2|[Add Two Numbers](https://leetcode.com/problems/add-two-numbers/)| [Java](leetcode/solution/src/AddTwoNumber.java)|80|
 |3|[Longest Substring Without Repeating Characters](https://leetcode.com/problems/longest-substring-without-repeating-characters/)| [Java](leetcode/solution/src/LongestSubstringWithoutRepeatingCharacters.java)||这个系列的所有题都要多做几遍|
-|4|[Median of Two Sorted Arrays](https://leetcode.com/problems/median-of-two-sorted-arrays/)| [Java](leetcode/solution/src/MedianOfTwoSortedArrays.java)|70|这题很经典，多做几遍|
+|4|[Median of Two Sorted Arrays](https://leetcode.com/problems/median-of-two-sorted-arrays/)| [Java](src/leetcode/LC4_MedianofTwoSortedArrays.java)|50|抓住问题的本质是集合的划分|
 |5|[Longest Palindromic Substring](https://leetcode.com/problems/longest-palindromic-substring/)| [Java](leetcode/solution/src/LongestPalindromicSubstring.java)|85|这题对比动态规划和最优算法|
 |6|[ZigZag Conversion](https://leetcode.com/problems/zigzag-conversion/)| [Java](leetcode/solution/src/ZigZagConversion.java)||
 |7|[Reverse Integer](https://leetcode.com/problems/reverse-integer/)| [Java](leetcode/solution/src/ReverseInteger.java)|95|
