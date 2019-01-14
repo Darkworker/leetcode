@@ -11,52 +11,50 @@ import java.util.Arrays;
  *           ALL RIGHTS RESERVED,COPYRIGHT(C) FCH LIMITED 2018
  */
 public class LC48_RotateImage {
+
 	public static void main(String[] args) {
-		LC48_RotateImage obj=new LC48_RotateImage();
 		int[][] matrix=new int[][] {{1,2,3},{4,5,6},{7,8,9}};
-		obj.rotate(matrix);
-		for(int[] line:matrix) {
-			Arrays.stream(line).forEach(x->System.out.print(x+" "));
+		LC48_RotateImage rotate=new LC48_RotateImage();
+		rotate.rotate(matrix);
+		for(int i=0;i<matrix.length;i++) {
+			for(int j=0;j<matrix[0].length;j++) {
+				System.out.print(matrix[i][j]+", ");
+			}
 			System.out.println();
 		}
 	}
+	
 	public void rotate(int[][] matrix) {
-		for (int i = 0; i < matrix.length / 2; i++) {
-			System.out.println(i);
-			rotateHelper(matrix, i);
+		for(int i=0;i<matrix.length/2;i++) {
+			rotate(matrix,i);
 		}
 	}
 
-	// 旋转一圈
-	public void rotateHelper(int[][] matrix, int begin) {
-		for (int i = begin; i < matrix.length - begin; i++) {
-			System.out.println(begin+","+i);
-			rotateHelper(matrix, begin, i);
+	public void rotate(int[][] matrix,int lay) {
+		for(int i=lay;i<matrix.length-1-lay;i++) {
+			int x1=lay;
+			int y1=i;
+			for(int k=0;k<3;k++) {
+				int x2,y2;
+				if(k==0) {
+					x2=i;
+					y2=matrix.length-1-lay;
+				}else if(k==1) {
+					x2=matrix.length-1-lay;
+					y2=matrix.length-1-i;
+				}else {
+					x2=matrix.length-1-i;
+					y2=lay;
+				}
+				this.swap(matrix, x1, y1, x2, y2);
+			}
 		}
 	}
 
-	// 旋转一个点
-	public void rotateHelper(int[][] matrix, int idx_i, int idx_j) {
-		// 获取第一个变化后的坐标
-		// 横变，纵不变
-		int idx1j = idx_i;
-		int idx1i = matrix.length - 1 - idx_j;
-		System.out.println("idx1 "+idx1i+","+idx1j);
-		// 获取第二个变化后的坐标
-		// 纵变，横不变
-		int idx2i = matrix.length - 1 - idx1j;
-		int idx2j = idx1i;
-		System.out.println("idx2 "+idx2i+","+idx2j);
-		// 获取第二个变化后的坐标
-		// 横变，纵不变
-		int idx3j=idx2i;
-		int idx3i=matrix.length - 1 - idx2j;
-		System.out.println("idx3 "+idx3i+","+idx3j);
-		
-		int tmp=matrix[idx_i][idx_j];
-		matrix[idx_i][idx_j]=matrix[idx3i][idx3j];
-		matrix[idx3i][idx3j]=matrix[idx2i][idx2j];
-		matrix[idx2i][idx2j]=matrix[idx1i][idx1j];
-		matrix[idx1i][idx1j]=tmp;
+	private void swap(int[][] matrix, int x1, int y1, int x2, int y2) {
+		int tmp = matrix[x1][y1];
+		matrix[x1][y1] = matrix[x2][y2];
+		matrix[x2][y2] = tmp;
 	}
+
 }
