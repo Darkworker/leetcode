@@ -11,6 +11,7 @@ public class LC030_SubstringwithConcatenationofAllWords {
 		 if(s==null||words==null||s.length()==0||words.length==0) {
 			 return new LinkedList<Integer>();
 		 }
+		 // 
 	        final Map<String, Integer> counts = new HashMap<>();
 	        for (final String word : words) {
 	            counts.put(word, counts.getOrDefault(word, 0) + 1);
