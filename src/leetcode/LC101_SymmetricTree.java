@@ -7,6 +7,7 @@ import java.util.List;
 public class LC101_SymmetricTree {
 	public static void main(String[] args) {
 		
+		//
 	}
 	public boolean isSymmetric(TreeNode root) {
 		if(root==null) return true;
